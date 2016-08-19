@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6199D8CD692A46307B7AD06B /* libPods-CTContacts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C930C178F6E0DAF2CFE0389 /* libPods-CTContacts.a */; };
+		9A3EF8361D5DDB7B005F06DA /* CTAddressBookDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3EF8221D5DDB7B005F06DA /* CTAddressBookDefine.m */; };
+		9A3EF8371D5DDB7B005F06DA /* CTAddressBookIOS8Maneger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3EF8241D5DDB7B005F06DA /* CTAddressBookIOS8Maneger.m */; };
+		9A3EF8381D5DDB7B005F06DA /* CTAddressBookIOS9Maneger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3EF8261D5DDB7B005F06DA /* CTAddressBookIOS9Maneger.m */; };
+		9A3EF8391D5DDB7B005F06DA /* CTAddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3EF8281D5DDB7B005F06DA /* CTAddressBookManager.m */; };
+		9A3EF83A1D5DDB7B005F06DA /* CTPersonInfoEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3EF82A1D5DDB7B005F06DA /* CTPersonInfoEntity.m */; };
+		9A3EF83B1D5DDB7B005F06DA /* CTAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3EF82C1D5DDB7B005F06DA /* CTAddressBook.m */; };
+		9A3EF83C1D5DDB7B005F06DA /* CTContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3EF82E1D5DDB7B005F06DA /* CTContacts.m */; };
+		9A3EF83D1D5DDB7B005F06DA /* CTFBContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3EF8311D5DDB7B005F06DA /* CTFBContact.m */; };
+		9A3EF83E1D5DDB7B005F06DA /* CTGoogleContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3EF8331D5DDB7B005F06DA /* CTGoogleContact.m */; };
+		9A3EF83F1D5DDB7B005F06DA /* CTPersonal.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3EF8351D5DDB7B005F06DA /* CTPersonal.m */; };
+		9A3EF8441D5DDCBD005F06DA /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3EF8411D5DDCBD005F06DA /* ContactsViewController.m */; };
+		9A3EF8451D5DDCBD005F06DA /* CTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3EF8431D5DDCBD005F06DA /* CTTableViewCell.m */; };
+		9A7FBEBA1D58D0EC009AFF27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7FBEB91D58D0EC009AFF27 /* main.m */; };
+		9A7FBEBD1D58D0EC009AFF27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7FBEBC1D58D0EC009AFF27 /* AppDelegate.m */; };
+		9A7FBEC01D58D0EC009AFF27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7FBEBF1D58D0EC009AFF27 /* ViewController.m */; };
+		9A7FBEC31D58D0EC009AFF27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7FBEC11D58D0EC009AFF27 /* Main.storyboard */; };
+		9A7FBEC51D58D0EC009AFF27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A7FBEC41D58D0EC009AFF27 /* Assets.xcassets */; };
+		9A7FBEC81D58D0EC009AFF27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7FBEC61D58D0EC009AFF27 /* LaunchScreen.storyboard */; };
+		9A7FBED31D58D0EC009AFF27 /* CTContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7FBED21D58D0EC009AFF27 /* CTContactsTests.m */; };
+		9A7FBEDE1D58D0EC009AFF27 /* CTContactsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7FBEDD1D58D0EC009AFF27 /* CTContactsUITests.m */; };
+		9A7FBEEC1D58D523009AFF27 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A7FBEEB1D58D523009AFF27 /* GoogleService-Info.plist */; };
+		9A9D1FEB1D66AF8B00503F84 /* CTTestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D1FEA1D66AF8B00503F84 /* CTTestObj.m */; };
+		9AD6DBA31D6060D800718458 /* CTGoogleSignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6DBA21D6060D800718458 /* CTGoogleSignIn.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A7FBECF1D58D0EC009AFF27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A7FBEAD1D58D0EC009AFF27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A7FBEB41D58D0EC009AFF27;
+			remoteInfo = CTContacts;
+		};
+		9A7FBEDA1D58D0EC009AFF27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A7FBEAD1D58D0EC009AFF27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A7FBEB41D58D0EC009AFF27;
+			remoteInfo = CTContacts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F987D5103941013575D8777 /* Pods-CTContacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTContacts.release.xcconfig"; path = "Pods/Target Support Files/Pods-CTContacts/Pods-CTContacts.release.xcconfig"; sourceTree = "<group>"; };
+		7C930C178F6E0DAF2CFE0389 /* libPods-CTContacts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTContacts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3EF8211D5DDB7B005F06DA /* CTAddressBookDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAddressBookDefine.h; sourceTree = "<group>"; };
+		9A3EF8221D5DDB7B005F06DA /* CTAddressBookDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAddressBookDefine.m; sourceTree = "<group>"; };
+		9A3EF8231D5DDB7B005F06DA /* CTAddressBookIOS8Maneger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAddressBookIOS8Maneger.h; sourceTree = "<group>"; };
+		9A3EF8241D5DDB7B005F06DA /* CTAddressBookIOS8Maneger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAddressBookIOS8Maneger.m; sourceTree = "<group>"; };
+		9A3EF8251D5DDB7B005F06DA /* CTAddressBookIOS9Maneger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAddressBookIOS9Maneger.h; sourceTree = "<group>"; };
+		9A3EF8261D5DDB7B005F06DA /* CTAddressBookIOS9Maneger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAddressBookIOS9Maneger.m; sourceTree = "<group>"; };
+		9A3EF8271D5DDB7B005F06DA /* CTAddressBookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAddressBookManager.h; sourceTree = "<group>"; };
+		9A3EF8281D5DDB7B005F06DA /* CTAddressBookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAddressBookManager.m; sourceTree = "<group>"; };
+		9A3EF8291D5DDB7B005F06DA /* CTPersonInfoEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTPersonInfoEntity.h; sourceTree = "<group>"; };
+		9A3EF82A1D5DDB7B005F06DA /* CTPersonInfoEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTPersonInfoEntity.m; sourceTree = "<group>"; };
+		9A3EF82B1D5DDB7B005F06DA /* CTAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAddressBook.h; sourceTree = "<group>"; };
+		9A3EF82C1D5DDB7B005F06DA /* CTAddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAddressBook.m; sourceTree = "<group>"; };
+		9A3EF82D1D5DDB7B005F06DA /* CTContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTContacts.h; sourceTree = "<group>"; };
+		9A3EF82E1D5DDB7B005F06DA /* CTContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTContacts.m; sourceTree = "<group>"; };
+		9A3EF82F1D5DDB7B005F06DA /* CTContactsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTContactsProtocol.h; sourceTree = "<group>"; };
+		9A3EF8301D5DDB7B005F06DA /* CTFBContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFBContact.h; sourceTree = "<group>"; };
+		9A3EF8311D5DDB7B005F06DA /* CTFBContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFBContact.m; sourceTree = "<group>"; };
+		9A3EF8321D5DDB7B005F06DA /* CTGoogleContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTGoogleContact.h; sourceTree = "<group>"; };
+		9A3EF8331D5DDB7B005F06DA /* CTGoogleContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTGoogleContact.m; sourceTree = "<group>"; };
+		9A3EF8341D5DDB7B005F06DA /* CTPersonal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTPersonal.h; sourceTree = "<group>"; };
+		9A3EF8351D5DDB7B005F06DA /* CTPersonal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTPersonal.m; sourceTree = "<group>"; };
+		9A3EF8401D5DDCBD005F06DA /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		9A3EF8411D5DDCBD005F06DA /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		9A3EF8421D5DDCBD005F06DA /* CTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTTableViewCell.h; sourceTree = "<group>"; };
+		9A3EF8431D5DDCBD005F06DA /* CTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTTableViewCell.m; sourceTree = "<group>"; };
+		9A7FBEB51D58D0EC009AFF27 /* CTContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7FBEB91D58D0EC009AFF27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A7FBEBB1D58D0EC009AFF27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A7FBEBC1D58D0EC009AFF27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A7FBEBE1D58D0EC009AFF27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A7FBEBF1D58D0EC009AFF27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A7FBEC21D58D0EC009AFF27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A7FBEC41D58D0EC009AFF27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A7FBEC71D58D0EC009AFF27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A7FBEC91D58D0EC009AFF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7FBECE1D58D0EC009AFF27 /* CTContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7FBED21D58D0EC009AFF27 /* CTContactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTContactsTests.m; sourceTree = "<group>"; };
+		9A7FBED41D58D0EC009AFF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7FBED91D58D0EC009AFF27 /* CTContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7FBEDD1D58D0EC009AFF27 /* CTContactsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTContactsUITests.m; sourceTree = "<group>"; };
+		9A7FBEDF1D58D0EC009AFF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7FBEEB1D58D523009AFF27 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9A9D1FE91D66AF8B00503F84 /* CTTestObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTTestObj.h; sourceTree = "<group>"; };
+		9A9D1FEA1D66AF8B00503F84 /* CTTestObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTTestObj.m; sourceTree = "<group>"; };
+		9AD6DBA11D6060D800718458 /* CTGoogleSignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTGoogleSignIn.h; sourceTree = "<group>"; };
+		9AD6DBA21D6060D800718458 /* CTGoogleSignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTGoogleSignIn.m; sourceTree = "<group>"; };
+		FFD163887764DB600AFB2191 /* Pods-CTContacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTContacts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CTContacts/Pods-CTContacts.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A7FBEB21D58D0EC009AFF27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6199D8CD692A46307B7AD06B /* libPods-CTContacts.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7FBECB1D58D0EC009AFF27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7FBED61D58D0EC009AFF27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D88B346DDB4C91FF11883F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C930C178F6E0DAF2CFE0389 /* libPods-CTContacts.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74F4DCA2807EDEBC5B4D24AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFD163887764DB600AFB2191 /* Pods-CTContacts.debug.xcconfig */,
+				5F987D5103941013575D8777 /* Pods-CTContacts.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A3EF81F1D5DDB7B005F06DA /* CTContacts */ = {
+			isa = PBXGroup;
+			children = (
+				9AD6DBA11D6060D800718458 /* CTGoogleSignIn.h */,
+				9AD6DBA21D6060D800718458 /* CTGoogleSignIn.m */,
+				9A3EF8201D5DDB7B005F06DA /* CTAddressBook */,
+				9A3EF82F1D5DDB7B005F06DA /* CTContactsProtocol.h */,
+				9A3EF82D1D5DDB7B005F06DA /* CTContacts.h */,
+				9A3EF82E1D5DDB7B005F06DA /* CTContacts.m */,
+				9A3EF8301D5DDB7B005F06DA /* CTFBContact.h */,
+				9A3EF8311D5DDB7B005F06DA /* CTFBContact.m */,
+				9A3EF8321D5DDB7B005F06DA /* CTGoogleContact.h */,
+				9A3EF8331D5DDB7B005F06DA /* CTGoogleContact.m */,
+				9A3EF82B1D5DDB7B005F06DA /* CTAddressBook.h */,
+				9A3EF82C1D5DDB7B005F06DA /* CTAddressBook.m */,
+				9A3EF8341D5DDB7B005F06DA /* CTPersonal.h */,
+				9A3EF8351D5DDB7B005F06DA /* CTPersonal.m */,
+			);
+			path = CTContacts;
+			sourceTree = "<group>";
+		};
+		9A3EF8201D5DDB7B005F06DA /* CTAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				9A3EF8211D5DDB7B005F06DA /* CTAddressBookDefine.h */,
+				9A3EF8221D5DDB7B005F06DA /* CTAddressBookDefine.m */,
+				9A3EF8231D5DDB7B005F06DA /* CTAddressBookIOS8Maneger.h */,
+				9A3EF8241D5DDB7B005F06DA /* CTAddressBookIOS8Maneger.m */,
+				9A3EF8251D5DDB7B005F06DA /* CTAddressBookIOS9Maneger.h */,
+				9A3EF8261D5DDB7B005F06DA /* CTAddressBookIOS9Maneger.m */,
+				9A3EF8271D5DDB7B005F06DA /* CTAddressBookManager.h */,
+				9A3EF8281D5DDB7B005F06DA /* CTAddressBookManager.m */,
+				9A3EF8291D5DDB7B005F06DA /* CTPersonInfoEntity.h */,
+				9A3EF82A1D5DDB7B005F06DA /* CTPersonInfoEntity.m */,
+			);
+			path = CTAddressBook;
+			sourceTree = "<group>";
+		};
+		9A7FBEAC1D58D0EC009AFF27 = {
+			isa = PBXGroup;
+			children = (
+				9A7FBEB71D58D0EC009AFF27 /* CTContacts */,
+				9A7FBED11D58D0EC009AFF27 /* CTContactsTests */,
+				9A7FBEDC1D58D0EC009AFF27 /* CTContactsUITests */,
+				9A7FBEB61D58D0EC009AFF27 /* Products */,
+				74F4DCA2807EDEBC5B4D24AE /* Pods */,
+				3D88B346DDB4C91FF11883F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A7FBEB61D58D0EC009AFF27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A7FBEB51D58D0EC009AFF27 /* CTContacts.app */,
+				9A7FBECE1D58D0EC009AFF27 /* CTContactsTests.xctest */,
+				9A7FBED91D58D0EC009AFF27 /* CTContactsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A7FBEB71D58D0EC009AFF27 /* CTContacts */ = {
+			isa = PBXGroup;
+			children = (
+				9A3EF81F1D5DDB7B005F06DA /* CTContacts */,
+				9A7FBEBB1D58D0EC009AFF27 /* AppDelegate.h */,
+				9A7FBEBC1D58D0EC009AFF27 /* AppDelegate.m */,
+				9A7FBEBE1D58D0EC009AFF27 /* ViewController.h */,
+				9A7FBEBF1D58D0EC009AFF27 /* ViewController.m */,
+				9A3EF8401D5DDCBD005F06DA /* ContactsViewController.h */,
+				9A3EF8411D5DDCBD005F06DA /* ContactsViewController.m */,
+				9A3EF8421D5DDCBD005F06DA /* CTTableViewCell.h */,
+				9A3EF8431D5DDCBD005F06DA /* CTTableViewCell.m */,
+				9A7FBEC11D58D0EC009AFF27 /* Main.storyboard */,
+				9A7FBEC41D58D0EC009AFF27 /* Assets.xcassets */,
+				9A7FBEC61D58D0EC009AFF27 /* LaunchScreen.storyboard */,
+				9A7FBEC91D58D0EC009AFF27 /* Info.plist */,
+				9A7FBEEB1D58D523009AFF27 /* GoogleService-Info.plist */,
+				9A7FBEB81D58D0EC009AFF27 /* Supporting Files */,
+				9A9D1FE91D66AF8B00503F84 /* CTTestObj.h */,
+				9A9D1FEA1D66AF8B00503F84 /* CTTestObj.m */,
+			);
+			path = CTContacts;
+			sourceTree = "<group>";
+		};
+		9A7FBEB81D58D0EC009AFF27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A7FBEB91D58D0EC009AFF27 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A7FBED11D58D0EC009AFF27 /* CTContactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A7FBED21D58D0EC009AFF27 /* CTContactsTests.m */,
+				9A7FBED41D58D0EC009AFF27 /* Info.plist */,
+			);
+			path = CTContactsTests;
+			sourceTree = "<group>";
+		};
+		9A7FBEDC1D58D0EC009AFF27 /* CTContactsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A7FBEDD1D58D0EC009AFF27 /* CTContactsUITests.m */,
+				9A7FBEDF1D58D0EC009AFF27 /* Info.plist */,
+			);
+			path = CTContactsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A7FBEB41D58D0EC009AFF27 /* CTContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7FBEE21D58D0EC009AFF27 /* Build configuration list for PBXNativeTarget "CTContacts" */;
+			buildPhases = (
+				F95133629F8BB4B715FAB885 /* [CP] Check Pods Manifest.lock */,
+				9A7FBEB11D58D0EC009AFF27 /* Sources */,
+				9A7FBEB21D58D0EC009AFF27 /* Frameworks */,
+				9A7FBEB31D58D0EC009AFF27 /* Resources */,
+				C4AD4077297EEDE8796EF493 /* [CP] Embed Pods Frameworks */,
+				ACF4D7E1D2D7423167F0909D /* [CP] Copy Pods Resources */,
+				9A3EF7FE1D5D7D6A005F06DA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTContacts;
+			productName = CTContacts;
+			productReference = 9A7FBEB51D58D0EC009AFF27 /* CTContacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A7FBECD1D58D0EC009AFF27 /* CTContactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7FBEE51D58D0EC009AFF27 /* Build configuration list for PBXNativeTarget "CTContactsTests" */;
+			buildPhases = (
+				9A7FBECA1D58D0EC009AFF27 /* Sources */,
+				9A7FBECB1D58D0EC009AFF27 /* Frameworks */,
+				9A7FBECC1D58D0EC009AFF27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A7FBED01D58D0EC009AFF27 /* PBXTargetDependency */,
+			);
+			name = CTContactsTests;
+			productName = CTContactsTests;
+			productReference = 9A7FBECE1D58D0EC009AFF27 /* CTContactsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A7FBED81D58D0EC009AFF27 /* CTContactsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7FBEE81D58D0EC009AFF27 /* Build configuration list for PBXNativeTarget "CTContactsUITests" */;
+			buildPhases = (
+				9A7FBED51D58D0EC009AFF27 /* Sources */,
+				9A7FBED61D58D0EC009AFF27 /* Frameworks */,
+				9A7FBED71D58D0EC009AFF27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A7FBEDB1D58D0EC009AFF27 /* PBXTargetDependency */,
+			);
+			name = CTContactsUITests;
+			productName = CTContactsUITests;
+			productReference = 9A7FBED91D58D0EC009AFF27 /* CTContactsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A7FBEAD1D58D0EC009AFF27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rock Chen";
+				TargetAttributes = {
+					9A7FBEB41D58D0EC009AFF27 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9A7FBECD1D58D0EC009AFF27 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9A7FBEB41D58D0EC009AFF27;
+					};
+					9A7FBED81D58D0EC009AFF27 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9A7FBEB41D58D0EC009AFF27;
+					};
+				};
+			};
+			buildConfigurationList = 9A7FBEB01D58D0EC009AFF27 /* Build configuration list for PBXProject "CTContacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A7FBEAC1D58D0EC009AFF27;
+			productRefGroup = 9A7FBEB61D58D0EC009AFF27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A7FBEB41D58D0EC009AFF27 /* CTContacts */,
+				9A7FBECD1D58D0EC009AFF27 /* CTContactsTests */,
+				9A7FBED81D58D0EC009AFF27 /* CTContactsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A7FBEB31D58D0EC009AFF27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7FBEC81D58D0EC009AFF27 /* LaunchScreen.storyboard in Resources */,
+				9A7FBEEC1D58D523009AFF27 /* GoogleService-Info.plist in Resources */,
+				9A7FBEC51D58D0EC009AFF27 /* Assets.xcassets in Resources */,
+				9A7FBEC31D58D0EC009AFF27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7FBECC1D58D0EC009AFF27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7FBED71D58D0EC009AFF27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A3EF7FE1D5D7D6A005F06DA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		ACF4D7E1D2D7423167F0909D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTContacts/Pods-CTContacts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4AD4077297EEDE8796EF493 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTContacts/Pods-CTContacts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F95133629F8BB4B715FAB885 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A7FBEB11D58D0EC009AFF27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3EF83E1D5DDB7B005F06DA /* CTGoogleContact.m in Sources */,
+				9A3EF83B1D5DDB7B005F06DA /* CTAddressBook.m in Sources */,
+				9A3EF83D1D5DDB7B005F06DA /* CTFBContact.m in Sources */,
+				9A3EF8441D5DDCBD005F06DA /* ContactsViewController.m in Sources */,
+				9A3EF8391D5DDB7B005F06DA /* CTAddressBookManager.m in Sources */,
+				9A7FBEC01D58D0EC009AFF27 /* ViewController.m in Sources */,
+				9A7FBEBD1D58D0EC009AFF27 /* AppDelegate.m in Sources */,
+				9AD6DBA31D6060D800718458 /* CTGoogleSignIn.m in Sources */,
+				9A9D1FEB1D66AF8B00503F84 /* CTTestObj.m in Sources */,
+				9A7FBEBA1D58D0EC009AFF27 /* main.m in Sources */,
+				9A3EF83F1D5DDB7B005F06DA /* CTPersonal.m in Sources */,
+				9A3EF8361D5DDB7B005F06DA /* CTAddressBookDefine.m in Sources */,
+				9A3EF8381D5DDB7B005F06DA /* CTAddressBookIOS9Maneger.m in Sources */,
+				9A3EF83C1D5DDB7B005F06DA /* CTContacts.m in Sources */,
+				9A3EF83A1D5DDB7B005F06DA /* CTPersonInfoEntity.m in Sources */,
+				9A3EF8371D5DDB7B005F06DA /* CTAddressBookIOS8Maneger.m in Sources */,
+				9A3EF8451D5DDCBD005F06DA /* CTTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7FBECA1D58D0EC009AFF27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7FBED31D58D0EC009AFF27 /* CTContactsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7FBED51D58D0EC009AFF27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7FBEDE1D58D0EC009AFF27 /* CTContactsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A7FBED01D58D0EC009AFF27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A7FBEB41D58D0EC009AFF27 /* CTContacts */;
+			targetProxy = 9A7FBECF1D58D0EC009AFF27 /* PBXContainerItemProxy */;
+		};
+		9A7FBEDB1D58D0EC009AFF27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A7FBEB41D58D0EC009AFF27 /* CTContacts */;
+			targetProxy = 9A7FBEDA1D58D0EC009AFF27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A7FBEC11D58D0EC009AFF27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A7FBEC21D58D0EC009AFF27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A7FBEC61D58D0EC009AFF27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A7FBEC71D58D0EC009AFF27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A7FBEE01D58D0EC009AFF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A7FBEE11D58D0EC009AFF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A7FBEE31D58D0EC009AFF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD163887764DB600AFB2191 /* Pods-CTContacts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CTContacts/Frameworks",
+					"$(PROJECT_DIR)/CTContacts",
+				);
+				INFOPLIST_FILE = CTContacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flyteamworks.CTContacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A7FBEE41D58D0EC009AFF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F987D5103941013575D8777 /* Pods-CTContacts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CTContacts/Frameworks",
+					"$(PROJECT_DIR)/CTContacts",
+				);
+				INFOPLIST_FILE = CTContacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flyteamworks.CTContacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A7FBEE61D58D0EC009AFF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CTContactsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flyteamworks.CTContactsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTContacts.app/CTContacts";
+			};
+			name = Debug;
+		};
+		9A7FBEE71D58D0EC009AFF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CTContactsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flyteamworks.CTContactsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTContacts.app/CTContacts";
+			};
+			name = Release;
+		};
+		9A7FBEE91D58D0EC009AFF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CTContactsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flyteamworks.CTContactsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CTContacts;
+			};
+			name = Debug;
+		};
+		9A7FBEEA1D58D0EC009AFF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CTContactsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flyteamworks.CTContactsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CTContacts;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A7FBEB01D58D0EC009AFF27 /* Build configuration list for PBXProject "CTContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7FBEE01D58D0EC009AFF27 /* Debug */,
+				9A7FBEE11D58D0EC009AFF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A7FBEE21D58D0EC009AFF27 /* Build configuration list for PBXNativeTarget "CTContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7FBEE31D58D0EC009AFF27 /* Debug */,
+				9A7FBEE41D58D0EC009AFF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A7FBEE51D58D0EC009AFF27 /* Build configuration list for PBXNativeTarget "CTContactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7FBEE61D58D0EC009AFF27 /* Debug */,
+				9A7FBEE71D58D0EC009AFF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A7FBEE81D58D0EC009AFF27 /* Build configuration list for PBXNativeTarget "CTContactsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7FBEE91D58D0EC009AFF27 /* Debug */,
+				9A7FBEEA1D58D0EC009AFF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A7FBEAD1D58D0EC009AFF27 /* Project object */;
+}
